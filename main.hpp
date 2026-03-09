@@ -37,6 +37,10 @@ void insertOne(double *scores, int index){
 
 // TODO: Sort scores in ascending order using insertion sort (use pointer arithmetic, no brackets)
 void sortScores(double *scores){
+    // TODO: Sort scores in ascending order using insertion sort (use pointer arithmetic, no brackets)
+    for (int i = 0; i < NUM_SCORES; i++){
+        insertOne(scores, i);
+    }
 
 }
 
